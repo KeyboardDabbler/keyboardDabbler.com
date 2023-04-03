@@ -9,12 +9,23 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@nuxt/content',
         '@nuxt/image-edge',
-        'nuxt-og-image',,
+        'nuxt-og-image', ,
         'nuxt-icon'
     ],
     css: [
         '@/resources/scrollbars.css',
         '@/resources/main.scss',
-      ],
-    
+    ],
+    pinceau: {
+        configFileName: 'tokens.config',
+        debug: false,
+    },
+    content: {
+        documentDriven: true,
+        highlight: {
+          // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
+          theme: 'dracula',
+        },
+      },
+
 })
