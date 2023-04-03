@@ -5,10 +5,16 @@ export default defineNuxtConfig({
         'nuxt-seo-kit'
     ],
     modules: [
+        '@vueuse/nuxt',
         'nuxt-windicss',
         '@nuxt/content',
         '@nuxt/image-edge',
         'nuxt-og-image',,
         'nuxt-icon'
-    ]
+    ],
+    css: [
+        '@/resources/scrollbars.css',
+        '@/resources/main.scss',
+      ],
+    
 })
