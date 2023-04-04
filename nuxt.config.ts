@@ -49,5 +49,14 @@ export default defineNuxtConfig({
             theme: 'dracula',
         },
     },
+    image: {
+        cloudinary: {
+          baseURL: 'https://res.cloudinary.com/dpub6gcei/image/upload/v1675566231/keyboardDabbler',
+          modifiers: {
+            quality: 'auto:best',
+            dpr: 'auto',
+          },
+        },
+      },
 
 })
