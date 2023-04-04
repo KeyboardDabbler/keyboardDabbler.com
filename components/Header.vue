@@ -22,6 +22,9 @@ const { data: nav } = await useHeaderNav()
             </template>
           </ul>
         </nav>
+        <div class="md:(space-x-2) space-x-1 text-gray-500 flex items-center">
+          <SocialIcons class="hidden sm:flex md:(space-x-2) space-x-1 " />
+        </div>
       </div>
     </div>
   </header>
@@ -37,4 +40,14 @@ header {
   z-index: 50;
 }
 
+nav .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (max-width: 768px) {
+  nav .icon {
+    display: none !important;
+  }
+}
 </style>
