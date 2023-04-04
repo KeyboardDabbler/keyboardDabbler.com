@@ -1,5 +1,18 @@
+<script lang="ts" setup>
+const siteMeta = useSiteMeta()
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <Html dir="ltr">
+    <Head>
+      <SeoKit />
+      <SchemaOrgPerson
+        :name="siteMeta.name"
+        :same-as="siteMeta.sameAs"
+      />
+    </Head>
+    <Body>
+
+    </Body>
+  </Html>
 </template>
