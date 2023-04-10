@@ -10,7 +10,7 @@ const containerStyles = {
 }
 
 const initialStyles = {
-  background: 'linear-gradient(90deg, rgb(181, 194, 57), rgb(244, 207, 68) 75%)',
+  background: 'linear-gradient(90deg, rgba(#F4CF44, 1), rgba(#77B23E, 1))',
   'background-clip': 'text',
   '-webkit-background-clip': 'text',
   color: 'transparent',
@@ -19,7 +19,7 @@ const initialStyles = {
 </script>
 
 <template>
-<div :style="containerStyles" class="w-full h-full flex flex-col text-white relative">
+<div :style="containerStyles" class="w-full h-full flex text-white flex-row items-center relative">
   <div class="py-10 px-10">
     <div :style="{ fontSize: '70px' }" class="mt-10 font-bold mb-10 flex flex-row justify-between items-center">
       {{ title }}
@@ -27,9 +27,9 @@ const initialStyles = {
     <p :style="{ fontSize: '30px', lineHeight: '1.5em' }" class="text-gray-300" v-html="description"></p>
   </div>
   <div class="flex items-center flex-row absolute left-20 bottom-20" :style="{ width: '1000px', left: '100px'}">
-    <img src="/harlan-wilton.jpeg" width="60" height="60" class="rounded-xl mr-5">
+    <img src="portfolio-avatar-sharpened.png" width="60" height="60" class="rounded-xl mr-5">
     <div class="flex text-gray-700 flex-col">
-      <span class="text-yellow1 font-bold" :style="initialStyles">keyboardDabbler</span>
+      <span class="text-green-700 font-bold" :style="initialStyles">keyboardDabbler</span>
     </div>
   </div>
 </div>
