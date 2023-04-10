@@ -1,5 +1,5 @@
 {
-  "name": "harlanzw-com",
+  "name": "keyboarddabbler-com",
   "type": "module",
   "version": "1.0.0",
   "private": true,
@@ -71,6 +71,7 @@
     }
   },
   "dependencies": {
-    "remove": "^0.1.5"
+    "remove": "^0.1.5",
+    "vercel": "^28.18.4"
   }
 }
