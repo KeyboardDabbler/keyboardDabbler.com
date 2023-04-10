@@ -6,4 +6,7 @@ node_modules
 .output
 .env
 dist
-.DS_Store
+.idea
+images/*
+!images/README.md
+.vercel

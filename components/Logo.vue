@@ -11,15 +11,15 @@ const siteMeta = useSiteMeta()
       provider="cloudinary"
       class="rounded-full border-2 border-primary h-20 w-20 mr-3 transition-all"
     />
-    <div aria-label="keyboardDabbler" class="hidden sm:block text-gray-700 dark:text-gray-200 relative transform">
-      <span class="block text-yellow6 font-bold text-3xl logo">keyboardDabbler</span>
+    <div aria-label="keyboardDabbler" class="block text-gray-700 dark:text-gray-200 relative transform">
+      <span class="block text-yellow6 font-bold text-1xl sm:text-3xl logo">keyboardDabbler</span>
     </div>
   </nuxt-link>
 </template>
 
 <style lang="scss">
 .group:hover {
-  filter: drop-shadow(0 0 35px #f2fedc);
+  filter: drop-shadow(0 0 25px #f2fedc);
   .logo {
     background: linear-gradient(45deg, rgba(#F4CF44, 1), rgba(#77B23E, 1));
     -webkit-background-clip: text;

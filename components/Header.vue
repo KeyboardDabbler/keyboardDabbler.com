@@ -7,23 +7,26 @@ const { data: nav } = await useHeaderNav()
     <div class="flex justify-between items-center max-w-8xl mx-auto mx-auto sm:px-8 px-4">
       <Logo />
       <div class="flex items-center">
+        <!-- Navigation -->
         <nav aria-label="Main Menu" class="opacity-75">
           <ul class="flex lg:(space-x-7 mr-15) sm:space-x-2 space-x-1 text-sm md:text-base items-center">
             <template v-for="(link, key) in nav">
               <li v-if="link._path !== '/'" :key="key">
                 <NuxtLink v-slot="slot" :to="link._path" class="!inline-flex items-center group" :title="`Visit ${link.title} Page`">
                   <div :class="slot?.isActive ? ['sm:bg-green-50', 'text-green-800', 'dark:(sm:bg-green-800/10 text-green-50)'] : []" class="md:(px-3 py-2) px-1 py-1 rounded">
-                    <icon v-if="link.icon" :name="link.icon" :class="slot?.isActive ? 'opacity-100' : 'opacity-75'" class="hidden text-sm w-3 h-3 sm:inline-block text mr-2 mb-1 transition opacity-75 group-hover:opacity-100" />
+                    <icon v-if="link.icon" :name="link.icon" :class="slot?.isActive ? 'opacity-100' : 'opacity-75'" class="hidden text-sm w-3 h-3 md:inline-block text mr-2 mb-1 transition opacity-75 group-hover:opacity-100" />
                     {{ link.title }}
                   </div>
-                  <Link :key="key" rel="prefetch" :href="link.path" />
+                  <!-- Render Prefetch hints for all navigation pages -->
+                  <Link :key="key" rel="prefetch" :href="link._path" />
                 </NuxtLink>
               </li>
             </template>
           </ul>
         </nav>
         <div class="md:(space-x-2) space-x-1 text-gray-500 flex items-center">
-          <SocialIcons class="hidden sm:flex md:(space-x-2) space-x-1 " />
+          <!-- Social icons & Color Mode -->
+          <SocialIcons class="hidden lg:flex md:(space-x-2) space-x-1 " />
         </div>
       </div>
     </div>
