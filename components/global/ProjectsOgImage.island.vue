@@ -27,7 +27,7 @@ const initialStyles = {
     <p :style="{ fontSize: '30px', lineHeight: '1.5em' }" class="text-gray-300" v-html="description"></p>
   </div>
   <div class="flex items-center flex-row absolute left-20 bottom-20" :style="{ width: '1000px', left: '100px'}">
-    <img src="portfolio-avatar-sharpened.png" width="60" height="60" class="rounded-xl mr-5">
+    <img src="/portfolio-avatar-sharpened.png" width="60" height="60" class="rounded-xl mr-5">
     <div class="flex text-gray-700 flex-col">
       <span class="text-green-700 font-bold" :style="initialStyles">keyboardDabbler</span>
     </div>
