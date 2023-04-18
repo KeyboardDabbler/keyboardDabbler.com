@@ -15,12 +15,11 @@ You've probably played with self-hosting some mainstream apps yourself. In these
 So, what are you waiting for? Let's dive in and get your homelab up and running.
 
 ## The "Pythonesque" Homelab
-::prose
+::alert
 This is a collection of the Pythonesque homelab guides, the links will be updated as each one becomes availiable.
 ::
 
 Todo list;
-::list
 - Network design
 - Selecting the right hardware
 - Router/ firewall (OPNSense)
@@ -34,7 +33,6 @@ Todo list;
 - Google replacement (nextcloud, immich, owntracks, office)
 - Monitoring and metrics collection, graphing and alerting
 - Troubleshooting tips and tricks
-::
 
 ## Feedback
 I continue to appreciate feedback on any errors, configuration or areas you think would benefit from additional clarification so please don’t hesitate to contact me by email.
