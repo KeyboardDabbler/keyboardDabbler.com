@@ -30,6 +30,8 @@ export default defineNuxtConfig({
     '@/resources/main.scss',
   ],
 
+  devtools: true,
+
   pinceau: {
     configFileName: 'tokens.config',
     studio: false,
