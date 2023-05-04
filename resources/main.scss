@@ -3,6 +3,11 @@
   --color-black :rgb(17,24,40) !important;
 }
 
+:root.dark .docs-prev-next a[data-v-be297a4d]:hover {
+    background-color: rgb(17,24,40) !important;
+    border-color: rgb(17,24,40) !important; 
+}
+
 body {
   min-height: 100vh;
   overflow: overlay;
