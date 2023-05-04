@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const { page: post } = useContent()
-defineOgImageScreenshot({
-  delay: 1000,
+defineOgImageStatic({
+  component: 'PostOgImage',
 })
 </script>
 
@@ -30,9 +30,11 @@ defineOgImageScreenshot({
     position: initial !important;
   }
 }
+
 .toc {
   top: 160px !important;
 }
+
 .docs-prev-next .wrapper {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -42,7 +44,7 @@ defineOgImageScreenshot({
 }
 
 :root.dark .docs-prev-next a[data-v-3c2ee526]:hover {
-    background-color: rgb(17,24,40);
-    border-color: rgb(17,24,40);
+  background-color: rgb(17, 24, 40);
+  border-color: rgb(17, 24, 40);
 }
 </style>
