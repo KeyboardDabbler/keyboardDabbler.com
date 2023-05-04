@@ -30,6 +30,13 @@ export default defineNuxtConfig({
     '@/resources/main.scss',
   ],
 
+  pinceau: {
+    configFileName: 'tokens.config',
+    studio: false,
+    debug: true,
+    followSymbolicLinks: false,
+  },
+
   app: {
     head: {
       link: [
