@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink target="_blank" href="https://gitea.keyboarddabbler.com" title="Visit my Gitea" class="group">
+    <NuxtLink target="_blank" href="https://gitea.keyboarddabbler.com/explore/repos" title="Visit my Gitea" class="group">
       <i-line-md-github class="icon icon--off" alt="Gitea Logo" />
       <i-line-md:github-twotone class="icon icon--on" alt="Gitea Logo" />
     </NuxtLink>
