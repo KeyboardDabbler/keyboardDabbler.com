@@ -22,7 +22,9 @@ const siteMeta = useSiteMeta()
         <div class="flex justify-center mb-3">
           <SocialIcons />
         </div>
-        <p class="my-3">Made with ❤️ by <span class="text-yellow1 font-bold">keyboardDabbler</span> | © 2023-Present</p>
+        <p class="my-3">
+          Made with ❤️ by <span class="text-yellow1 font-bold">keyboardDabbler</span> | © 2023-Present
+        </p>
       </footer>
     </Body>
   </Html>

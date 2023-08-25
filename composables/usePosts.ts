@@ -15,7 +15,7 @@ export interface UsePostsOptions {
   category: string
   sort: string
 }
-export const usePosts = (options?: UsePostsOptions) => {
+export function usePosts(options?: UsePostsOptions) {
   return useAsyncData('content:post-partials', () => queryContent<Post>('blog/')
     .only(['_path', 'description', 'title', 'publishedAt', 'readingMins'])
     .sort({
@@ -24,7 +24,7 @@ export const usePosts = (options?: UsePostsOptions) => {
     .limit(options?.limit || 10)
     .find(), {
     // group posts by the publish year
-    transform: posts => {
+    transform: (posts) => {
       posts = posts.filter(p => p.publishedAt)
       return groupBy(posts, p => new Date(p.publishedAt).getFullYear())
     },

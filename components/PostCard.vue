@@ -1,12 +1,10 @@
 <script lang="ts" setup>
-import type { PropType } from 'vue'
 import { TransitionPresets } from '@vueuse/core'
 import type { Post } from '~/types'
 import { dayNth } from '~/logic'
 import { useElementHover, useTransition } from '#imports'
-const props = defineProps({
-  post: Object as PropType<Post>,
-})
+
+const props = defineProps<{ post: Post }>()
 const formatPublishedDate = (options: any) => new Intl.DateTimeFormat('en', options).format(new Date(props.post.publishedAt))
 const month = formatPublishedDate({ month: 'short' })
 const day = dayNth(formatPublishedDate({ day: 'numeric' }))

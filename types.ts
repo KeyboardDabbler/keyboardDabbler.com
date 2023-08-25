@@ -25,10 +25,10 @@ export interface JsonParsedContent<T> extends ParsedContent {
 }
 
 export interface projectData {
-  title: string;
-  description: string;
-  url: string;
-  repo: string;
-  img: string;
-  tag: string;
+  title: string
+  description: string
+  url: string
+  repo: string
+  img: string
+  tag: string
 }
