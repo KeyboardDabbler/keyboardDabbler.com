@@ -1,5 +1,5 @@
 ---
-title: "Launching my New Personal Website"
+title: "From Static to Dynamic - Launching my New Personal Website"
 description: "A look at the journey from a static HTML/CSS website to a dynamic, reactive personal website built with NuxtJS and VueJS, showcasing the latest web development practices."
 publishedAt: "2023-02-02"
 aside: false
