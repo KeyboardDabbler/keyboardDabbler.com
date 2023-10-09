@@ -1,5 +1,4 @@
 import type { NitroAppPlugin } from 'nitropack'
-
 // import { Breadcrumbs } from './content/breadcrumbs'
 import { CodeFilename } from './content/code-file-name'
 import { NuxtImage } from './content/nuxt-image'

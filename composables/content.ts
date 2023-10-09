@@ -1,13 +1,13 @@
 import { useAsyncData } from '#app'
 import { queryContent } from '#imports'
-import type { Page, Post } from '~/types'
+import type { JsonParsedContent, Page, Post } from '~/types'
 import { groupBy } from '~/logic'
 
-export function useHeaderNav() {
+export const useHeaderNav = () => {
   return useAsyncData('content:navigation', () => fetchContentNavigation())
 }
 
-export function usePostList() {
+export const usePostList = () => {
   return useAsyncData('content:post-partials', () => queryContent<Post>()
     .where({ _path: /blog\/*/ })
     .without(['head', 'body', 'excerpt', '_'])
@@ -20,7 +20,7 @@ export function usePostList() {
   })
 }
 
-export function useRoutesContent<T extends Post>(path?: string) {
+export const useRoutesContent = <T extends Post>(path?: string) => {
   if (!path)
     path = useRoute().path
   return useAsyncData(`content:${path}`, () => queryContent<T>()

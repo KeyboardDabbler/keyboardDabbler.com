@@ -17,16 +17,14 @@ interface LoadIconResponse {
 export const iconCollections = collections
   .sort((a, b) => b.length - a.length)
 
-export function tagIsIcon(tag: string) {
-  return !!iconCollections.find((i) => {
-    if (!tag || !tag.startsWith('i-'))
-      return false
+export const tagIsIcon = (tag: string) => !!iconCollections.find((i) => {
+  if (!tag || !tag.startsWith('i-'))
+    return false
 
-    return tag.substring(2).startsWith(`${i}-`)
-  })
-}
+  return tag.substring(2).startsWith(`${i}-`)
+})
 
-export function normaliseSvgAttrs(svg: string, icon: string) {
+export const normaliseSvgAttrs = (svg: string, icon: string) => {
   // svg is possibly empty for an invalid icon
   if (!svg)
     return false
@@ -40,7 +38,7 @@ export function normaliseSvgAttrs(svg: string, icon: string) {
   }
 }
 
-export async function loadIconForTag(tag: string) {
+export const loadIconForTag = async (tag: string) => {
   // fix up the tag name splitting v and 1
   if (tag.startsWith('i-emojione-v-1'))
     tag = tag.replace('i-emojione-v-1', 'i-emojione-v1')

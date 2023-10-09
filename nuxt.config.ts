@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
   ],
   build: {
-    transpile: ['swiper'],
+    transpile: ['swiper']
   },
 
   runtimeConfig: {
