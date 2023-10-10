@@ -41,7 +41,3 @@
 
 ## License 📎
 [MIT License](./LICENSE)
-
-## Updated
-
-Commits on Aug 28th, 2023

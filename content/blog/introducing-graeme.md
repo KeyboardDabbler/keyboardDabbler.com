@@ -22,10 +22,7 @@ From there I discovered the massive multiplayer online first-person shooter (FPS
 I started my journey by creating custom themed user signatures and avatars for gaming forums using Photoshop. My skills quickly gained recognition and I began receiving requests from other members to create similar designs for them. This led me to expand my services to include building complete websites for gaming clans. I started by creating custom skins for existing forums and then eventually moved on to building a custom Content Management Systems (CMS) which i used for each of my clients. Over time, I have had the privilege of building websites for several gaming clans, and it has been an incredibly rewarding experience. I take pride in delivering high-quality, user-friendly websites that not only meet but exceed my clients' expectations.
 
 ## Taking Time Out and Traveling
-After some time, I decided to take a break and traveled to South America and then immigrated to New Zealand.
-
-## Driven by the Open-Source Community
-Today, my passion lies in the open-source and self-hosted community. I am fascinated by the collective contribution and the opportunity to make a real impact. With my engineering background, I have a logical approach to the way I work and I enjoy the challenge of coding and fault-finding. I find it satisfying to build and make changes and see the results.
+After some time, I decided to take a break and traveled to South America and then immigrated to New Zealand. Today, my passion lies in the open-source and self-hosted community. I am fascinated by the collective contribution and the opportunity to make a real impact. With my engineering background, I have a logical approach to the way I work and I enjoy the challenge of coding and fault-finding. I find it satisfying to build and make changes and see the results.
 
 ## Future Goals and Projects
 My future goals are to continue learning and expanding my knowledge in the world of technology and open-source. I am currently working on a follow-up blog post which will include my self-hosted apps, network setup and the benefits it has provided me with in terms of online security and convienence.

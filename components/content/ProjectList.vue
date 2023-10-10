@@ -15,7 +15,7 @@ export default defineComponent({
       projectsData: [
         {
           title: 'GBstreams',
-          description: 'GBstreams showcases my commitment to enhancing user experiences within the Jellyfin ecosystem. Users can effortlessly access their profiles, update avatars, reset passwords, and gain insights into their play history and statistics. This project also uses Nuxt Conetent v2 to provide documentation',
+          description: 'GBstreams showcases my commitment to enhancing user experiences within the Jellyfin ecosystem. Users can effortlessly access their profiles, update avatars, reset passwords, and gain insights into their play history and statistics.',
           url: 'https://gbstreams.com',
           repo: 'https://gitea.keyboarddabbler.com/GBstreams/gbstreams.com',
           img: ['https://res.cloudinary.com/dpub6gcei/image/upload/v1696739130/keyboardDabbler/apps/gb1_kfsfv9.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739130/keyboardDabbler/apps/gb2_cmm3kq.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739131/keyboardDabbler/apps/gb3_ylpnaj.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739130/keyboardDabbler/apps/gb6_htc4o0.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739130/keyboardDabbler/apps/gb7_gaomph.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739131/keyboardDabbler/apps/gb8_uagog1.png'],
@@ -23,7 +23,7 @@ export default defineComponent({
         },
         {
           title: 'Jellyfin Theme',
-          description: 'project that reimagines the Jellyfin web app interface to meet modern design standards and enhance user experience. With a passion for both web development and media management, I undertook the task of creating a custom theme that not only elevates the aesthetics but also introduces additional features for Jellyfin users.',
+          description: 'Comparison between the default Jellyfin theme and the custom theme i created . I undertook the task of creating a custom theme that not only elevates the aesthetics but also introduces additional features for Jellyfin users.',
           url: '',
           repo: 'https://gitea.keyboarddabbler.com/Development/jellyfinTheme',
           img: ['https://res.cloudinary.com/dpub6gcei/image/upload/v1696739203/keyboardDabbler/apps/defaultMovies_ui8r0j.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739202/keyboardDabbler/apps/newMovies_zw9nu0.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739202/keyboardDabbler/apps/defaultMusic_mkqozp.png', 'https://res.cloudinary.com/dpub6gcei/image/upload/v1696739203/keyboardDabbler/apps/newMusic_si12by.png'],
@@ -31,10 +31,18 @@ export default defineComponent({
         },
         {
           title: '1M Quoting',
-          description: 'In this project, I combined my passion for web development with a love for gaming to create an engaging platform. Users can search for and learn about various Super Mario characters, from the heroic Mario and Luigi to the mischievous Bowser and his henchmen. What sets this project apart is its PWA functionality, allowing users to install the app on their devices for quick and convenient access, even when offline.',
+          description: '',
           url: '',
           repo: 'https://gitea.keyboarddabbler.com/Development/superMarioCharacterExplorer',
           img: ['https://res.cloudinary.com/dpub6gcei/image/upload/v1696486101/keyboardDabbler/apps/1mQuoting_arxgqz.png'],
+          tag: 'web',
+        },
+        {
+          title: 'Muddy Paws Adventures',
+          description: 'During a golden retriever dog meet, I connected with a individual who operates a local dog walking service. I created a custom website that not only reflects their love for dogs but also serves as a user-friendly platform to access their services',
+          url: '',
+          repo: 'https://gitea.keyboarddabbler.com/',
+          img: ['https://res.cloudinary.com/dpub6gcei/image/upload/v1696914904/keyboardDabbler/apps/muddyPawsPackAdventures_ycrmc3.png'],
           tag: 'web',
         },
         {
@@ -55,7 +63,7 @@ export default defineComponent({
         },
         {
           title: 'GBstreams',
-          description: '',
+          description: 'Branding for the GBstreams website.',
           url: '/',
           repo: '/',
           img: ['https://res.cloudinary.com/dpub6gcei/image/upload/v1678918300/GBstreams/branding/logo_stacked-light_dxdmem.png'],
