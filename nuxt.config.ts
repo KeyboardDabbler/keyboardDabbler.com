@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     "@nuxt/content"
   ],
 
+  colorMode: {
+    preference: 'dark'
+  },
+
   nitro: {
     prerender: {
       routes: [
