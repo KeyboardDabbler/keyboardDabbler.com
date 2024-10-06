@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     "@nuxt/ui-pro",
     "@nuxt/eslint",
     "@nuxt/content",
-    'nuxt-og-image'
+    'nuxt-og-image',
+    '@nuxt/image'
   ],
 
   colorMode: {
@@ -21,6 +22,16 @@ export default defineNuxtConfig({
       ],
       crawlLinks: true
     }
+  },
+
+  image: {
+    cloudinary: {
+      baseURL: process.env.NUXT_IMAGE_BASE_URL,
+      modifiers: {
+        quality: 'auto:best',
+        dpr: 'auto',
+      },
+    },
   },
 
   devtools: { enabled: true },
