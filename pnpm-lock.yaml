@@ -20,6 +20,9 @@ importers:
       '@nuxt/ui':
         specifier: 3.0.0-alpha.5
         version: 3.0.0-alpha.5(ioredis@5.4.1)(magicast@0.3.5)(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(lightningcss@1.27.0)(terser@5.34.1))(vue@3.5.11(typescript@5.6.2))
+      '@nuxt/ui-pro':
+        specifier: 2.0.0-alpha.5
+        version: 2.0.0-alpha.5(ioredis@5.4.1)(magicast@0.3.5)(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(lightningcss@1.27.0)(terser@5.34.1))(vue@3.5.11(typescript@5.6.2))
       eslint:
         specifier: ^9.11.1
         version: 9.12.0(jiti@2.3.1)
@@ -1020,6 +1023,9 @@ packages:
   '@nuxt/telemetry@2.6.0':
     resolution: {integrity: sha512-h4YJ1d32cU7tDKjjhjtIIEck4WF/w3DTQBT348E9Pz85YLttnLqktLM0Ez9Xc2LzCeUgBDQv1el7Ob/zT3KUqg==}
     hasBin: true
+
+  '@nuxt/ui-pro@2.0.0-alpha.5':
+    resolution: {integrity: sha512-ItERzDeFyDEcShVzRM0vd6l/6cuAeiyTpvoJi2jqDBw3WDDAHFRYd2TkxQI+aMzfBYHFOcZ5m69lGEjgWgqeHg==}
 
   '@nuxt/ui@3.0.0-alpha.5':
     resolution: {integrity: sha512-qvWjuKepXaKWXvDrBcojyZCflrQi7d3unBKy5hJSazTowMfS8MtTlOokEPsHnoeHh/xgDcyAUk6BARyHfS937g==}
@@ -4427,6 +4433,9 @@ packages:
   smob@1.5.0:
     resolution: {integrity: sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==}
 
+  smooth-dnd@0.12.1:
+    resolution: {integrity: sha512-Dndj/MOG7VP83mvzfGCLGzV2HuK1lWachMtWl/Iuk6zV7noDycIBnflwaPuDzoaapEl3Pc4+ybJArkkx9sxPZg==}
+
   socket.io-client@4.8.0:
     resolution: {integrity: sha512-C0jdhD5yQahMws9alf/yvtsMGTaIDBnZ8Rb5HU56svyq0l5LIrGzIDZZD5pHQlmzxLuU91Gz+VpQMKgCTNYtkw==}
     engines: {node: '>=10.0.0'}
@@ -5020,6 +5029,11 @@ packages:
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
+
+  vue3-smooth-dnd@0.0.6:
+    resolution: {integrity: sha512-CH9ZZhEfE7qU1ef2rlfgBG+nZtQX8PnWlspB2HDDz1uVGU7fXM0Pr65DftBMz4X81S+edw2H+ZFG6Dyb5J81KA==}
+    peerDependencies:
+      vue: ^3.0.11
 
   vue@3.5.11:
     resolution: {integrity: sha512-/8Wurrd9J3lb72FTQS7gRMNQD4nztTtKPmuDuPuhqXmmpD6+skVjAeahNpVzsuky6Sy9gy7wn8UadqPtt9SQIg==}
@@ -6231,6 +6245,55 @@ snapshots:
       - magicast
       - rollup
       - supports-color
+      - webpack-sources
+
+  '@nuxt/ui-pro@2.0.0-alpha.5(ioredis@5.4.1)(magicast@0.3.5)(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(lightningcss@1.27.0)(terser@5.34.1))(vue@3.5.11(typescript@5.6.2))':
+    dependencies:
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)
+      '@nuxt/schema': 3.13.2(rollup@4.24.0)
+      '@nuxt/ui': 3.0.0-alpha.5(ioredis@5.4.1)(magicast@0.3.5)(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(lightningcss@1.27.0)(terser@5.34.1))(vue@3.5.11(typescript@5.6.2))
+      '@vueuse/core': 11.1.0(vue@3.5.11(typescript@5.6.2))
+      consola: 3.2.3
+      defu: 6.1.4
+      git-url-parse: 15.0.0
+      ofetch: 1.4.0
+      parse-git-config: 3.0.0
+      pkg-types: 1.2.0
+      scule: 1.3.0
+      vue3-smooth-dnd: 0.0.6(vue@3.5.11(typescript@5.6.2))
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@upstash/redis'
+      - '@vercel/kv'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - encoding
+      - focus-trap
+      - idb-keyval
+      - ioredis
+      - jwt-decode
+      - magicast
+      - nprogress
+      - postcss
+      - qrcode
+      - rollup
+      - sortablejs
+      - supports-color
+      - uWebSockets.js
+      - universal-cookie
+      - vite
+      - vue
       - webpack-sources
 
   '@nuxt/ui@3.0.0-alpha.5(ioredis@5.4.1)(magicast@0.3.5)(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.4)(lightningcss@1.27.0)(terser@5.34.1))(vue@3.5.11(typescript@5.6.2))':
@@ -10486,6 +10549,8 @@ snapshots:
 
   smob@1.5.0: {}
 
+  smooth-dnd@0.12.1: {}
+
   socket.io-client@4.8.0:
     dependencies:
       '@socket.io/component-emitter': 3.1.2
@@ -11112,6 +11177,11 @@ snapshots:
       '@vue/language-core': 2.1.6(typescript@5.6.2)
       semver: 7.6.3
       typescript: 5.6.2
+
+  vue3-smooth-dnd@0.0.6(vue@3.5.11(typescript@5.6.2)):
+    dependencies:
+      smooth-dnd: 0.12.1
+      vue: 3.5.11(typescript@5.6.2)
 
   vue@3.5.11(typescript@5.6.2):
     dependencies:
