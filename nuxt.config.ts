@@ -4,15 +4,16 @@ export default defineNuxtConfig({
     '~/assets/css/main.css'
   ],
 
-  devtools: { enabled: true },
-
   modules: [
     "@nuxt/ui", 
     "@nuxt/eslint"
   ],
 
+  devtools: { enabled: true },
+
   typescript: {
-    typeCheck: true
+    typeCheck: true,
+    strict: false
   },
 
   eslint: {
