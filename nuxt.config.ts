@@ -13,7 +13,10 @@ export default defineNuxtConfig({
     preference: 'dark'
   },
 
-  css: ['~/assets/css/main.css'],
+  css: [
+    '~/assets/css/tailwind.css',
+    '~/assets/scss/main.scss'
+  ],
 
   nitro: {
     prerender: {
@@ -29,9 +32,9 @@ export default defineNuxtConfig({
       baseURL: process.env.NUXT_IMAGE_BASE_URL,
       modifiers: {
         quality: 'auto:best',
-        dpr: 'auto',
-      },
-    },
+        dpr: 'auto'
+      }
+    }
   },
 
   devtools: { enabled: true },
