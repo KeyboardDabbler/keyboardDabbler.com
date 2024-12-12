@@ -4,4 +4,16 @@
 @theme {
     /* Font Configuration */
     --font-sans: "DM Sans", sans-serif;
+
+    /* Color Configuration */
+    --color-backg: #111828;
+    --color-forg: #202938;
+    --color-yellow-1: #F4CF44;
+    --color-yellow-2: #B5C239;
+    --color-yellow-3: #77B23E;
+    --color-yellow-4: #2F9E49;
+    --color-yellow-5: #008954;
+    --color-yellow-6: #00725D;
+    --color-blue: #00D5FF;
+    --color-gray-800: #202938;
 }
