@@ -15,10 +15,12 @@ useHead({
 </script>
 
 <template>
+  <Html class="scheme-only-dark scrollbar-thin" dir="ltr">
   <div>
     <NuxtLoadingIndicator />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
+</Html>
 </template>

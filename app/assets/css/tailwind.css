@@ -17,3 +17,9 @@
     --color-blue: #00D5FF;
     --color-gray-800: #202938;
 }
+
+@utility scrollbar-thin {
+    & {
+      scrollbar-width: thin;
+    }
+}
