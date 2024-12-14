@@ -9,14 +9,22 @@ export default defineNuxtConfig({
     '@nuxtjs/seo'
   ],
 
-  colorMode: {
-    preference: 'dark'
-  },
+  devtools: { enabled: true },
 
   css: [
     '~/assets/css/tailwind.css',
     '~/assets/scss/main.scss'
   ],
+
+  colorMode: {
+    preference: 'dark'
+  },
+
+  future: {
+    compatibilityVersion: 4
+  },
+
+  compatibilityDate: '2024-07-09',
 
   nitro: {
     prerender: {
@@ -24,6 +32,20 @@ export default defineNuxtConfig({
         '/'
       ],
       crawlLinks: true
+    }
+  },
+
+  typescript: {
+    typeCheck: false,
+    strict: false
+  },
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
     }
   },
 
@@ -36,26 +58,4 @@ export default defineNuxtConfig({
       }
     }
   },
-
-  devtools: { enabled: true },
-
-  typescript: {
-    typeCheck: false,
-    strict: false
-  },
-
-  future: {
-    compatibilityVersion: 4
-  },
-
-  compatibilityDate: '2024-07-09',
-
-  eslint: {
-    config: {
-      stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
-  }
 })
