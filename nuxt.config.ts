@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    "@nuxt/ui",
-    "@nuxt/ui-pro",
-    "@nuxt/eslint",
-    "@nuxt/content",
+    '@nuxt/ui',
+    '@nuxt/ui-pro',
+    '@nuxt/eslint',
+    '@nuxt/content',
     '@nuxt/image',
     '@nuxtjs/seo'
   ],
@@ -71,5 +71,5 @@ export default defineNuxtConfig({
         dpr: 'auto'
       }
     }
-  },
+  }
 })
