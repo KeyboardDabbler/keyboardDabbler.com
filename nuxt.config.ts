@@ -48,6 +48,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  compatibilityDate: '2024-07-09',
+
   eslint: {
     config: {
       stylistic: {
