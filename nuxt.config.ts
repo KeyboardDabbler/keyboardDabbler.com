@@ -73,5 +73,17 @@ export default defineNuxtConfig({
         dpr: 'auto'
       }
     }
+  },
+
+  schemaOrg: {
+    identity: definePerson({
+      name: 'keyboardDabbler',
+      image: '/Ada_circle_portfolio_avatar_vector_golden_retriever.png',
+      description: 'KeyboardDabbler\'s personal website - Explore the portfolio of a refrigeration engineer turned web development hobbyist. Discover completed projects, blog posts, and more about the passion behind the code. Contact for freelancing opportunities.',
+      url: 'keyboarddabbler.com',
+      sameAs: [
+        'https://github.com/KeyboardDabbler'
+      ]
+    })
   }
 })
