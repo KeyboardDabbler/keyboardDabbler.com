@@ -16,11 +16,12 @@ useHead({
 
 <template>
   <Html class="scheme-only-dark scrollbar-thin" dir="ltr">
-  <div>
+  <Body class="text-gray-100 antialiased">
     <NuxtLoadingIndicator />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
-</Html>
+    <UNotifications />
+  </Body>
+  </Html>
 </template>
