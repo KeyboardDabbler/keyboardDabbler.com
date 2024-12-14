@@ -11,10 +11,24 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  app: {
+    head: {
+      templateParams: {
+        separator: '·'
+      }
+    }
+  },
+
   css: [
     '~/assets/css/tailwind.css',
     '~/assets/scss/main.scss'
   ],
+
+  site: {
+    url: 'https://keyboarddabbler.com/',
+    name: 'keyboardDabbler',
+    description: 'KeyboardDabbler\'s personal website - Explore the portfolio of a refrigeration engineer turned web development hobbyist. Discover completed projects, blog posts, and more about the passion behind the code. Contact for freelancing opportunities.'
+  },
 
   colorMode: {
     preference: 'dark'
