@@ -15,13 +15,16 @@ useHead({
 </script>
 
 <template>
-  <Html class="scheme-only-dark scrollbar-thin" dir="ltr">
-  <Body class="text-gray-100 antialiased">
-    <NuxtLoadingIndicator />
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-    <UNotifications />
-  </Body>
+  <Html
+    class="scheme-only-dark scrollbar-thin"
+    dir="ltr"
+  >
+    <Body class="text-gray-100 antialiased">
+      <NuxtLoadingIndicator />
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+      <UNotifications />
+    </Body>
   </Html>
 </template>
