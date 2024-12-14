@@ -26,6 +26,7 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://keyboarddabbler.com/',
+    logo: '/Ada_circle_portfolio_avatar_vector_golden_retriever.png',
     name: 'keyboardDabbler',
     description: 'KeyboardDabbler\'s personal website - Explore the portfolio of a refrigeration engineer turned web development hobbyist. Discover completed projects, blog posts, and more about the passion behind the code. Contact for freelancing opportunities.'
   },
