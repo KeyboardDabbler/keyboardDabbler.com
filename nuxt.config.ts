@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     "@nuxt/ui-pro",
     "@nuxt/eslint",
     "@nuxt/content",
-    'nuxt-og-image',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/seo'
   ],
 
   colorMode: {
