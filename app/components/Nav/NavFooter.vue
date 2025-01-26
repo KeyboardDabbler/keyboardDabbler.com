@@ -1,10 +1,52 @@
 <template>
-  <footer class="px-5 sm:px-7 md:px-10 text-center text-gray-400 text-sm my-5">
-    <div class="flex justify-center mb-3">
-      <SocialIcons />
-    </div>
-    <p class="my-3">
-      Made with ❤️ by <span class="text-yellow-1 font-bold">keyboardDabbler</span> | © 2023-Present
-    </p>
-  </footer>
+  <UFooter class="my-10 text-[var(--ui-text-dimmed)] text-sm">
+    <template #top>
+      <SocialIcons class="flex items-center justify-center" />
+    </template>
+
+    <template #default>
+      <UFormField
+        name="email"
+        label="Subscribe to our newsletter"
+        size="sm"
+        :ui="{
+          labelWrapper: 'justify-center'
+        }"
+      >
+        <UInput
+          type="email"
+          class="w-80"
+          color="neutral"
+          variant="soft"
+          placeholder="Enter email address..."
+        >
+          <template #trailing>
+            <UButton
+              type="submit"
+              size="xs"
+              color="neutral"
+              variant="subtle"
+              label="Subscribe"
+            />
+          </template>
+        </UInput>
+      </UFormField>
+    </template>
+
+    <template #bottom>
+      <p class="flex items-center justify-center">
+        Made by
+        <ULink
+          raw
+          to="https://github.com/KeyboardDabbler"
+          active-class="font-bold"
+          inactive-class="text-[var(--ui-text-muted)]"
+          class="mx-2"
+        >
+          keyboardDabbler
+        </ULink>
+        | © {{ new Date().getFullYear() }}
+      </p>
+    </template>
+  </UFooter>
 </template>
