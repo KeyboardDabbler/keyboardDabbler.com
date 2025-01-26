@@ -37,6 +37,10 @@ export default defineNuxtConfig({
     preference: 'dark'
   },
 
+  routeRules: {
+    '/docs': { redirect: '/docs/overview', prerender: false }
+  },
+
   future: {
     compatibilityVersion: 4
   },
@@ -46,7 +50,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/'
+        '/',
+        '/docs'
       ],
       crawlLinks: true
     }
