@@ -13,7 +13,7 @@ const siteMeta = useSiteMeta()
       format="png"
       :alt="siteMeta.name"
       provider="cloudinary"
-      class="rounded-full border-1 border-primary h-12 w-12 mr-3 transition-all"
+      class="no-spacing mr-3 rounded-full border-1 border-primary transition-all"
     />
     <div
       aria-label="keyboardDabbler"
@@ -43,5 +43,10 @@ const siteMeta = useSiteMeta()
   background: linear-gradient(90deg, #00725D 30%, #008954 30%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.no-spacing {
+    width: 4em;
+    height: 4em;
 }
 </style>

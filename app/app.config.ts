@@ -8,7 +8,8 @@ export default defineAppConfig({
   uiPro: {
     header: {
       slots: {
-        root: 'border-none backdrop-blur-sm'
+        root: 'border-none backdrop-blur-sm',
+        container: 'flex justify-between items-center mx-auto sm:px-8 px-4 w-full max-w-[98em]'
       }
     },
     footer: {

@@ -23,3 +23,7 @@
       scrollbar-width: thin;
     }
 }
+
+:root {
+  --ui-header-height: calc(var(--spacing) * 25);
+}
