@@ -47,8 +47,8 @@ If you think I could help with your project, please don't hesitate to [get in to
 
 <strong class="text-xs uppercase opacity-70">My Current Favorite Stack</strong> 
 
-[:icon{name="logos:vue" class="mx-1" alt="VueJS 3"} Vue 3](https://vuejs.org/){title="Open VueJS.org"} ◦
+[:icon{name="logos:vue" class="mx-1" alt="VueJS"} VueJS](https://vuejs.org/){title="Open VueJS.org"} ◦
 [:icon{name="logos:nuxt-icon" alt="Nuxt Icon"} Nuxt](https://nuxt.com/){title="Open Nuxtjs.org"} ◦
-[:windi-icon{alt="WindiCSS icon"} WindiCSS](https://windicss.org){title="Open windicss.com"}
+[:icon{name="i-custom-tailwind"} TailwindCSS](https://tailwindcss.com/){title="Open TailwindCSS.com"}
 
 ::
