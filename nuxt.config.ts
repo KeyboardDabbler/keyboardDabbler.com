@@ -71,6 +71,13 @@ export default defineNuxtConfig({
     }
   },
 
+  icon: {
+    customCollections: [{
+      prefix: 'custom',
+      dir: './assets/icons'
+    }]
+  },
+
   image: {
     cloudinary: {
       baseURL: process.env.NUXT_IMAGE_BASE_URL,
