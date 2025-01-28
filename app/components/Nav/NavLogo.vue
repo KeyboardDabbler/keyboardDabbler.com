@@ -3,7 +3,7 @@ const siteMeta = useSiteMeta()
 </script>
 
 <template>
-  <nuxt-link
+  <NuxtLink
     to="/"
     class="flex items-center group unstyled py-4"
     title="Go Home"
@@ -13,7 +13,7 @@ const siteMeta = useSiteMeta()
       format="png"
       :alt="siteMeta.name"
       provider="cloudinary"
-      class="no-spacing mr-3 rounded-full border-1 border-primary transition-all"
+      class="no-spacing mr-3 rounded-full border-1 border-primary transition-all unstyled"
     />
     <div
       aria-label="keyboardDabbler"
@@ -21,7 +21,7 @@ const siteMeta = useSiteMeta()
     >
       <span class="block text-yellow6 font-bold text-1xl sm:text-3xl logo">keyboardDabbler</span>
     </div>
-  </nuxt-link>
+  </NuxtLink>
 </template>
 
 <style lang="css">

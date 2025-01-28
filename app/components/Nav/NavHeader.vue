@@ -29,7 +29,7 @@ const items = computed(() => [{
       class: 'rounded-full'
     }"
   >
-    <template #title>
+    <template #left>
       <NavLogo />
     </template>
 
