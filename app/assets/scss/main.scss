@@ -60,3 +60,8 @@ a:not(.unstyled),
         }
     }
 }
+
+.nomark ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
