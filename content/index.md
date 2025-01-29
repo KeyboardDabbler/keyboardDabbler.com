@@ -1,43 +1,36 @@
 ---
-title: "keyboardDabbler's Web Development Journey"
-prose: true
-h1: false
-breadcrumbs: false
-description: "KeyboardDabbler's personal website - Join the journey of a refrigeration engineer turned web development hobbyist. Discover completed projects, blog posts, and more about the passion behind the code. Contact for freelancing opportunities."
-ogImage:
-  title: "Home"
-  description: "Join the journey of a refrigeration engineer turned web development hobbyist."
+title: "keyboardDabbler's Homelab and Web Development Journey"
+description: "KeyboardDabbler's personal website - Thermodynamics engineer turned self taught enthusiast, sharing experiences in homelabs, web development and selfhosted projects."
 ---
-
 
 ::twocol
 #left
 
-# Hello! [👋]{.wave} 
+# Hello! :icon{name="twemoji:call-me-hand" class="size-14 align-baseline ml-2" alt="Chur"}
 
-A refrigeration engineer by day and a web development hobbyist by night. I live in the peaceful country of :icon{name="twemoji:flag-new-zealand" class="ml-2 mr-1" alt="New Zealand Flag"} New Zealand, having migrated from the :icon{name="twemoji:flag-england" class="ml-2 mr-1" alt="England Flag"} UK.
+A thermodynamics engineer working for Vertiv by day and a homelabber / web developer by night. I live in the serene country of :icon{name="twemoji:flag-new-zealand" class="size-5 ml-2 mr-1" alt="New Zealand Flag"} New Zealand, having migrated from the :icon{name="twemoji:flag-england" class="size-5 ml-2 mr-1" alt="England Flag"} UK.
 
 Sometimes I [write articles](/blog){title="Visit Blog Page"}.
 
 When I'm not coding, you can find me;
-::list
+::list{class="nomark"}
 - 🐕 taking Ada for walks
 - 📚 reading about new projects
-- 🏋️‍♀️ home workout (calisthenics)
+- 🏋️‍♀️ home workout
+- 🏞️ enjoying the great outdoors, often near a waterfall or beach.
 - 🎮 playing games
-- 🏞️ or perhaps enjoying the scenery in front of a waterfall.
 ::
 
 ## About
 
-My passion for web development started at the age of 13, when I would assist in a local PC repair shop after school. It wasn't long before I built my own computer and got hooked on online gaming, which led to creating websites and forums for the gaming community. 
-Today, i am driven by the passion of the collective contribution from the self hosted and open source community. This keeps me plenty busy with personal projects to improve the quality of life in this advanced world we now live in. With that in mind, I specialize in working with the VueJS, Nuxt, and Vite ecosystems.
+My homelab journey is a personal view into hardware setups, Kubernetes clusters and optimizing daily workflows. Driven by the passion of the collective contribution from the selfhosted and open source community. Has led me to document my experiences, sharing what works for me and the occasional lessons learned from missteps. This is not a guide from an expert, but rather a collection of my adventures and passion for improvement.
+The passion for homelabs has even influenced my career, transitioning me from working on supermarket cold stores and industrial refrigeration to specializing in cooling solutions for data centers.
 
-If you want to know more about my work, you can take a tour of the [Projects page](/projects).
+In addition, my drive for web development came about at age 13, after school i would regulary offer help in a local PC repair shop in return of some experiance. Building my first computer soon led me into the world of online gaming, creating websites and forums for the gaming community. Today, I enjoy developing in the VueJS ecosystem, specializing with Nuxt.
+
+If you’re curious about my work, check out the [Projects page](/projects).
 
 ## Paid Work
-
-In my free time, I work as a freelancer, creating UX web apps using Nuxt for my clients. 
 
 If you think I could help with your project, please don't hesitate to [get in touch](mailto:keyboarddabbler@gmail.com){title="Send an email to me at keyboarddabbler@gmail.com"}.
 
