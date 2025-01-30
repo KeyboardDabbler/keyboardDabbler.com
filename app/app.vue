@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'))
+
 useHead({
   meta: [
     { charset: 'utf-8' },
@@ -12,6 +14,8 @@ useHead({
     lang: 'en'
   }
 })
+
+provide('navigation', navigation)
 </script>
 
 <template>
