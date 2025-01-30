@@ -2,10 +2,8 @@
 @import "@nuxt/ui-pro";
 
 @theme {
-    /* Font Configuration */
     --font-sans: "DM Sans", sans-serif;
 
-    /* Color Configuration */
     --color-backg: #111828;
     --color-forg: #202938;
     --color-yellow-1: #F4CF44;
