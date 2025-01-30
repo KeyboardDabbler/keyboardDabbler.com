@@ -16,6 +16,19 @@ export default defineAppConfig({
       slots: {
         container: 'py-4 lg:py-4 flex items-center justify-between'
       }
+    },
+    prose: {
+      h2: {
+        slots: {
+          link: 'bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--ui-primary)] bg-clip-text text-transparent'
+        }
+      },
+      p: {
+        base: 'text-[var(--ui-text-toned)]'
+      },
+      li: {
+        base: 'text-[var(--ui-text-toned)]'
+      }
     }
   }
 })
