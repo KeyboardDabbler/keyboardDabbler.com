@@ -22,6 +22,9 @@ export default defineAppConfig({
         container: 'py-7 sm:py-7 lg:py-7'
       }
     },
+    pageBody: {
+      base: 'pb-10'
+    },
     prose: {
       h2: {
         slots: {
