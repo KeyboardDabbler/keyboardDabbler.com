@@ -17,6 +17,11 @@ export default defineAppConfig({
         container: 'py-4 lg:py-4 flex items-center justify-between'
       }
     },
+    pageHero: {
+      slots: {
+        container: 'py-7 sm:py-7 lg:py-7'
+      }
+    },
     prose: {
       h2: {
         slots: {
