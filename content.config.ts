@@ -6,8 +6,8 @@ export default defineContentConfig({
       type: 'page',
       source: 'index.md',
       schema: z.object({
-        title: z.string(),
-        description: z.string()
+        title: z.string().nonempty(),
+        description: z.string().nonempty()
       })
     }),
     docs: defineCollection({
@@ -19,29 +19,37 @@ export default defineContentConfig({
         tags: z.array(z.string()).optional()
       })
     }),
-    blogData: defineCollection({
+    blog: defineCollection({
       type: 'data',
       source: 'blog.yml',
       schema: z.object({
-        title: z.string(),
-        description: z.string(),
+        title: z.string().nonempty(),
+        description: z.string().nonempty(),
+        featured: z.array(
+          z.object({
+            title: z.string().nonempty()
+          })
+        ),
         posts: z.array(
           z.object({
-            title: z.string(),
-            path: z.string(),
-            date: z.string()
+            title: z.string().nonempty()
           })
         )
       })
     }),
-    blog: defineCollection({
+    posts: defineCollection({
       type: 'page',
-      source: 'blog/**/*.md',
+      source: 'blog**/*.md',
       schema: z.object({
-        title: z.string(),
+        title: z.string().nonempty(),
+        description: z.string().nonempty(),
         date: z.string(),
-        description: z.string().optional(),
-        tags: z.array(z.string()).optional()
+        image: z.object({
+          src: z.string().nonempty()
+        }),
+        badge: z.object({
+          label: z.string().nonempty()
+        })
       })
     })
   }
