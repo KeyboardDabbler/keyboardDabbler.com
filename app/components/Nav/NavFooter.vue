@@ -40,7 +40,7 @@
           raw
           to="https://github.com/KeyboardDabbler"
           active-class="font-bold"
-          inactive-class="text-[var(--ui-text-muted)]"
+          inactive-class="bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--color-lime-400)] bg-clip-text text-transparent"
           class="mx-2"
         >
           keyboardDabbler

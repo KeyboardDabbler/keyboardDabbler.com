@@ -15,7 +15,7 @@ const siteMeta = useSiteMeta()
       provider="cloudinary"
       class="no-spacing mr-3 rounded-full border-1 border-primary transition-all unstyled"
     />
-    <span class="block font-normal text-1xl sm:text-3xl logo bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--ui-primary)] bg-clip-text text-transparent">keyboardDabbler</span>
+    <span class="block font-normal text-1xl sm:text-3xl logo bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--color-lime-400)] bg-clip-text text-transparent">keyboardDabbler</span>
   </NuxtLink>
 </template>
 

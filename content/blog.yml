@@ -2,6 +2,6 @@ title: My Blog
 description: Dive into my personal journey through hardware setups, homelab guides, and daily workflows. As a self-taught enthusiast, I share what I’ve learned, what works for me, and the occasional misstep along the way. These are my experiences—not as an expert, but as someone who loves to explore and improve.
 navigation.icon: i-heroicons-newspaper
 featured:
-  headline: Featured
+  title: Featured
 posts:
-  headline: Recent Posts
+  title: Recent Posts

@@ -13,7 +13,6 @@ const { data: posts } = await useAsyncData(route.path, () => {
     <UPageHero v-bind="blog" />
     <UPageHeader
       v-bind="blog.featured"
-      class="py-[50px]"
     />
     <UPageBody>
       <UContainer>
@@ -36,7 +35,6 @@ const { data: posts } = await useAsyncData(route.path, () => {
     </UPageBody>
     <UPageHeader
       v-bind="blog.posts"
-      class="py-[50px]"
     />
 
     <UPageBody>

@@ -6,7 +6,7 @@ description: "KeyboardDabbler's personal website - Thermodynamics engineer turne
 ::twocol
 #left
 
-# Hello! :icon{name="twemoji:waving-hand" class="size-10 wave" alt="Waving hand"}
+# Hello! :icon{name="twemoji:waving-hand" class="size-10 animate-wave" alt="Waving hand"}
 
 A thermodynamics engineer working for Vertiv by day and a homelabber / web developer by night. I live in the serene country of :icon{name="twemoji:flag-new-zealand" class="size-5 ml-2 mr-1" alt="New Zealand Flag"} New Zealand, having migrated from the :icon{name="twemoji:flag-england" class="size-5 ml-2 mr-1" alt="England Flag"} UK.
 

@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'lime',
+      primary: 'indigo',
       gray: 'neutral'
     }
   },
@@ -22,13 +22,22 @@ export default defineAppConfig({
         container: 'py-7 sm:py-7 lg:py-7'
       }
     },
+    pageHeader: {
+      slots: {
+        title: 'text-base sm:text-lg text-pretty font-bold text-[var(--ui-text-highlighted)] bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--color-lime-400)] bg-clip-text text-transparent'
+      }
+    },
     pageBody: {
       base: 'pb-10'
     },
     prose: {
       h2: {
         slots: {
-          link: 'bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--ui-primary)] bg-clip-text text-transparent'
+          link: 'bg-gradient-to-r from-[var(--color-yellow-1)] to-[var(--color-lime-400)] bg-clip-text text-transparent',
+          leading: [
+            'group-hover:opacity-0 group-focus:opacity-0'
+          ],
+          leadingIcon: 'hidden'
         }
       },
       p: {
