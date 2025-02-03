@@ -2,18 +2,47 @@
 @import "@nuxt/ui-pro";
 
 @theme {
-    --font-sans: "DM Sans", sans-serif;
+  --font-sans: "DM Sans", sans-serif;
 
-    --color-backg: #111828;
-    --color-forg: #202938;
-    --color-yellow-1: #F4CF44;
-    --color-yellow-2: #B5C239;
-    --color-yellow-3: #77B23E;
-    --color-yellow-4: #2F9E49;
-    --color-yellow-5: #008954;
-    --color-yellow-6: #00725D;
-    --color-blue: #00D5FF;
-    --color-gray-800: #202938;
+  --color-backg: #111828;
+  --color-forg: #202938;
+  --color-yellow-1: #F4CF44;
+  --color-yellow-2: #B5C239;
+  --color-yellow-3: #77B23E;
+  --color-yellow-4: #2F9E49;
+  --color-yellow-5: #008954;
+  --color-yellow-6: #00725D;
+  --color-blue: #00D5FF;
+  --color-gray-800: #202938;
+
+  --animate-wave: wave-animation 2.5s infinite;
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0.0deg);
+    }
+    10% {
+      transform: rotate(14.0deg);
+    }
+    20% {
+      transform: rotate(-8.0deg);
+    }
+    30% {
+      transform: rotate(14.0deg);
+    }
+    40% {
+      transform: rotate(-4.0deg);
+    }
+    50% {
+      transform: rotate(10.0deg);
+    }
+    60% {
+      transform: rotate(0.0deg);
+    }
+    100% {
+      transform: rotate(0.0deg);
+    }
+  }
 }
 
 @utility scrollbar-thin {
