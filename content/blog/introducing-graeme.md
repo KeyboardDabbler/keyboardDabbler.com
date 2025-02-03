@@ -1,10 +1,9 @@
 ---
 title: "From Refrigeration Engineer to Tech Enthusiast"
 description: "Get to know Graeme, a refrigeration engineer with a passion for technology and gaming. Graeme shares his journey from building computers to creating websites and becoming a part of the self-hosted community."
-publishedAt: "2021-08-17"
-aside: false
-tags:
-  - blog
+date: 2021-08-17
+badge:
+  label: blog
 ---
 
 ## Introduction

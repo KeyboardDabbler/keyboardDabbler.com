@@ -1,10 +1,9 @@
 ---
 title: "A Guide to Configuring Your Homelab: My Personal Experience"
 description: "If you're like me, you love tinkering with technology and creating your own homelab. In this blog post, I'll be sharing my personal experience, while providing a overview to future guides detailing the process of configuring your own homelab. Whether you're new to homelabbing or a seasoned pro, there's something here for you."
-publishedAt: "2023-04-18"
-aside: false
-tags:
-  - blog
+date: 2023-04-18
+badge:
+  label: blog
 ---
 
 ## What to Expect.

@@ -1,10 +1,9 @@
 ---
 title: "Ultimate Gaming Rig - It's But a Scratch!"
 description: "Follow along as I detail the process of creating my dream gaming PC. From hardware selection and case choices to overcoming challenges, join me on the journey of building a high-performing, stylish, and future-proof gaming rig."
-publishedAt: "2023-06-25"
-aside: false
-tags:
-  - blog
+date: 2023-06-25
+badge:
+  label: blog
 ---
 
 <Image src="/blog/Logo-itsButaScratch_dcgszo.png" alt="itsButaScratch logo" class="h-50" no-margin />
